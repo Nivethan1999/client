@@ -10,7 +10,7 @@ const Payment = () => {
     const fetchPaymentDetails = async () => {
       try {
         const response = await axios({
-          url: 'http://localhost:5000/graphql/getAllPaymentDetails',
+          url: 'https://swwao.courses.orbit.au.dk/grp-17/api-gateway/graphql/getAllPaymentDetails',
           method: 'post',
           data: {
             query: `

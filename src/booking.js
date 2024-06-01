@@ -8,7 +8,7 @@ const Booking = () => {
   useEffect(() => {
     const fetchBookings = async () => {
       try {
-        const response = await fetch('http://localhost:5000/booking/getbookings');
+        const response = await fetch('https://swwao.courses.orbit.au.dk/grp-17/api-gateway/booking/getbookings');
 
         if (!response.ok) {
           throw new Error('Network response was not ok');
